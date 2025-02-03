@@ -19,7 +19,7 @@ See https://console.groq.com/login , you can log in directly with GitHub or Goog
 If you are using uv with python, all you need to do is running
 
 ``` bash
-uv init
+uv sync
 ```
 
 ### Without uv
