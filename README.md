@@ -8,8 +8,12 @@ Most of the examples about workflows is inspired from this [paper](https://media
 
 All relevant examples are in the notebook `workflows_and_agents.ipynb`
 
-The notebook is using LLMs from Groq. You will need to get an api-key from Groq and save it as an environment variable called `GROQ_API_KEY`
-See https://console.groq.com/login , you can log in directly with GitHub or Google, or make an account by email.
+The notebook is using LLMs from Groq. You will need to get an api-key from Groq and save it with the name `GROQ_API_KEY` either:
+
+- as an environment variable
+- in a file called `.env`
+
+See `https://console.groq.com/login`. You can log in directly with GitHub or Google, or make an account by email.
 
 
 ## Setup
