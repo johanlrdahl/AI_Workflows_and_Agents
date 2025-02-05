@@ -1,6 +1,6 @@
 # Content
 
-This is a simple hands-on workbook to play with AI workflows and agents
+This is a simple hands-on workbook to play with AI workflows and agents, without using external libraries that can do this out of the box.
 
 I have based the definitions of workflows and agents on an [article](https://www.anthropic.com/research/building-effective-agents) from Anthropic 
 
@@ -34,4 +34,10 @@ Create a python virtual environment
 python -m venv .venv
 source ./.venv/bin/activate
 pip install -r requirements.txt
+```
+
+On Windows, change the `source` command to
+
+``` cmd
+\.venv\Scripts\activate
 ```
